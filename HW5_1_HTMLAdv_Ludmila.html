@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Повторяющиеся радиальные градиенты</title>
+<style>
+    /* https://basicweb.ru/css/css_func_repeating-radial-gradient.php */
+div {
+height: 290px; /* устанавливаем высоту элемента */
+width: 290px; /* устанавливаем ширину элемента */
+display: inline-block; /* устанавливаем, что элементы <div> становятся блочно-строчными (чтобы выстроились в линейку) */
+}
+.test2 {
+background-image: repeating-radial-gradient(10px 2em at 40% 40%, orange 5%, green 10%, skyblue 15%); /* повтояющийся четырехцветный градиент в форме эллипса с заданным размером (10px 2em) и с точками остановки для каждого цвета через каждые 2px */
+}
+</style>
+</head>
+<body>
+	<div class = "test2"></div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #nav1, #nav1 ul, #nav1 li {
+        margin: 0;
+        padding: 0;
+        }
+        #nav1, #nav1 ul {
+        background: rgb(46,95,122);
+        }
+       
+        #nav1 ul { 
+        position: absolute;
+        z-index: 5;
+        display: none;
+        }
+        #nav1 li:hover ul { 
+        display: block;
+        }
+       
+        #nav1 a {
+        display: block;
+        padding: 3px 0;
+        color: #fff;
+        text-decoration: none;
+        }
+        #nav1 ul a {
+        padding: 3px 15px;
+        }
+        #nav1 li:hover {
+        background: rgb(96,145,172);
+        }
+    </style>   
+</head>
+<body>
+    
+    <ul id="nav1">
+        <li><a href="#2">Пункт 1</a>
+            <ul>
+              <li><a href="#2-1">Подменю 1</a>
+              <li><a href="#2-2">Подменю 2</a>
+              <li><a href="#2-3">Подменю 3</a>
+              <li><a href="#2-4">Подменю 4</a>
+            </ul>       
+      </ul> 
+</body>
+</html>
